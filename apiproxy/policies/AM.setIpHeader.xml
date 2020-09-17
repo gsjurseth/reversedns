@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM.setIpHeader">
+    <DisplayName>AM.setIpHeader</DisplayName>
+    <Properties/>
+    <Add>
+        <Headers>
+            <Header name="X-CLIENT-IP">{proxy.client.ip}</Header>
+        </Headers>
+    </Add>
+</AssignMessage>

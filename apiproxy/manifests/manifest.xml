@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM.setIpHeader" version="SHA-512:992bc7a0d81f27992503291018c07904a3b904b22d00f70c1316422c90e46f701ee242eb49342eafdc9d99fcd079383df453afc7cbd89b13835409c8167480a6"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:7703f21f18a00b652b779e83873c082646720b7db0084b9c780825ccf26e2e1903fc7c0c013431d759b65abebf74d4f3d56435238011c51c184650563ac2ce82"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="hosted://app.yaml" version="SHA-512:1d45d91f576f9845b1fbd64bac13b1591da466b268eabb413190007c425cb486c43a281154babb8cd9994bd32ae5a9a1efb6b90bc73e2e7a94ad27b8fd2f5245"/>
+        <VersionInfo resourceName="hosted://index.js" version="SHA-512:847374941d4c164f457ea713d734f5b306718ede16d1f9e2b745c713df605332357ffd25b2d053772877854ad8b6c5629564b8f8c323ab905745b748bf38eb1c"/>
+        <VersionInfo resourceName="hosted://package.json" version="SHA-512:d0266e8ec66d4343d3146430e67168bb272aae27167beed88eab62380226550e816ccc5bf15ea7e68601f1de9556489ac149e6f9ea6ad36acbf1217401f5c419"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:076e03eebc8da27e671a14631f7b75123ecb5f364ea566eb995548f1eb4b0d7a55b5bfc84617f7f0175fd8838316529d6a93517f22c6627d46c6bad58dd1d40d"/>
+    </TargetEndpoints>
+</Manifest>

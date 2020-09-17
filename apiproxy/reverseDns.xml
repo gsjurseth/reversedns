@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="reverseDns">
+    <Basepaths>/reversedns</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1600262222077</CreatedAt>
+    <CreatedBy>defaultUser</CreatedBy>
+    <Description></Description>
+    <DisplayName>reverseDns</DisplayName>
+    <HostedManifestVersion>SHA-512:915810804ff2003ef79398ce7eef2a77a4c05ee4619ea77e56c95ba7c1b75dd6c5ac0566f3cbebfaeb5e6b1b5830e921ffebe3a07b5a0a742d040861b70e4750:eu-west-1</HostedManifestVersion>
+    <LastModifiedAt>1600262927151</LastModifiedAt>
+    <LastModifiedBy>defaultUser</LastModifiedBy>
+    <ManifestVersion>SHA-512:a870c679af55a9b00dee627c0d159642f7a56e6dd55078b0587c46cc431d8498600aa6502e5a4bbc15650d4e723c4136722e307fe2639ce0b0af49ec1aeee047</ManifestVersion>
+    <Policies>
+        <Policy>AM.setIpHeader</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>hosted://app.yaml</Resource>
+        <Resource>hosted://index.js</Resource>
+        <Resource>hosted://package.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
